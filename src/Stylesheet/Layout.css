@@ -1,0 +1,28 @@
+:root{
+    --bg-color: #FFFFFF;
+    --second-bg-color: #63E9F8;
+    --third-bg-color: #5161F1;
+    --text-color: #f1f1f1;
+    --second-text-color: #1d1d1d;
+    --button-color: #252243;
+}
+
+.navbar{
+    background: var(--bg-color); 
+}
+
+.navbar ul li{
+    color: var(--second-text-color);
+    margin: 0px 12px;
+    border-radius: 10px;
+    padding: 6px;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: var(--second-text-color);
+    color: var(--text-color);
+
+}
+
